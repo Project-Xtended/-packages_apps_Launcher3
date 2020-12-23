@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  Copyright (C) 2020 ArrowOS
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- General -->
+    <string name="settings_title">X-Home 选项</string>
+
+    <!-- Categories -->
+    <string name="home_category_title">主屏幕</string>
+    <string name="home_category_summary">设置 Google 面板等</string>
+    <string name="icons_category_title">图标</string>
+    <string name="icons_category_summary">设置图标形状等</string>
+    <string name="app_drawer_category_title">应用抽屉</string>
+    <string name="app_drawer_category_summary">自定义您的应用抽屉</string>
+    <string name="misc_category_title">杂项</string>
+    <string name="misc_category_summary">其他选项</string>
+
+    <!-- SmartSpace -->
+    <string name="smartspace_preferences">首选项</string>
+    <string name="show_quickspace_title">一目了然</string>
+    <string name="show_quickspace_summary">显示在主屏幕顶部</string>
+
+    <string name="state_loading">正在应用\u2026</string>
+
+    <!-- Gestures -->
+    <string name="gestures_category">手势</string>
+    <string name="pref_notifications_gesture_title">通知手势</string>
+    <string name="pref_notifications_gesture_summary">在主屏幕上垂直向下滑动以显示QS面板</string>
+    <string name="pref_dt_gesture_title">双击手势</string>
+    <string name="pref_dt_gesture_summary">双击空白处以关闭电源</string>
+
+    <!-- Trust apps -->
+    <string name="trust_apps_manager_name">隐藏和受保护的应用</string>
+    <string name="trust_apps_manager_summary">隐藏的应用或受保护的应用通过屏幕锁定密码等来锁定它们</string>
+    <string name="trust_apps_manager_name_dialog">受保护的应用</string>
+    <string name="trust_apps_auth_manager">解锁以管理隐藏和受保护的应用</string>
+    <string name="trust_apps_auth_open_app">验证以打开 ％1$s</string>
+    <string name="trust_apps_loading">加载中\u2026</string>
+    <string name="trust_apps_no_lock_error">请设置安全的锁定屏幕以限制应用访问</string>
+    <string name="trust_apps_help">帮助</string>
+    <string name="trust_apps_info_hidden">隐藏的应用程序及其小部件从抽屉中隐藏</string>
+    <string name="trust_apps_info_protected">受保护的应用要求从启动器中打开时验证身份</string>
+
+    <!-- Settings title to show Google Now at -1 screen on launcher. [CHAR LIMIT=50] -->
+    <string name="title_show_google_app">显示Google App</string>
+    <!-- Settings message explaining when the -1 screen is available on an LTR device. [CHAR LIMIT=100] -->
+    <string name="msg_minus_one_on_left">从主主屏幕向左滑动时</string>
+    <!-- Settings message explaining when the -1 screen is available on an RTL device. [CHAR LIMIT=100] -->
+    <string name="msg_minus_one_on_right">从主主屏幕向右滑动时</string>
+    <string name="pref_show_google_now_summary" translatable="false">@string/msg_minus_one_on_left</string>
+
+    <!-- Hide labels -->
+    <string name="desktop_show_labels">在桌面上显示图标标题</string>
+    <string name="drawer_show_labels">在抽屉中显示图标标题</string>
+
+    <!-- Swipe down for clear all -->
+    <string name="allow_swipe_down_clearall_title">向下滑动以清除所有最新记录</string>
+    <string name="allow_swipe_down_clearall_desc">向下滑动即可清除概述屏幕中的所有最新记录</string>
+
+    <!-- Icon size -->
+    <string name="icon_size_title">图标大小</string>
+    <string name="icon_size_extra_small">很小</string>
+    <string name="icon_size_small">小</string>
+    <string name="icon_size_average">默认</string>
+    <string name="icon_size_large">大</string>
+    <string name="icon_size_extra_large">超大</string>
+
+    <!-- Grid -->
+    <string name="num_default">默认</string>
+    <string name="grid_category_title">列和行</string>
+    <string name="number_of_columns_title">网格和应用程序抽屉列</string>
+    <string name="number_of_rows_title">网格和应用程序抽屉行</string>
+    <string name="number_of_hotseat_title">主屏幕快速启动图标</string>
+
+</resources>
